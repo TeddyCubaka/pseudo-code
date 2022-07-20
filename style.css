@@ -1,0 +1,68 @@
+body{
+    width: 98vw;
+    background-color: rgb(0, 0, 29);
+    color: white;
+}
+
+.hide{
+    display: none !important;
+}
+
+form{
+    width: 100%;
+}
+.text{
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(0, 0, 29);
+    color: white;
+    border-color: white;
+}
+
+.grande-barre{
+    width: 100%;
+    height: 50px;
+    background-color: white;
+    margin-bottom: 20px;
+}
+.petite-barre{
+    height: 6px;
+    width: 500px;
+    background-color: white;
+    margin-bottom: 15px;
+    border-radius: 5px;
+}
+
+.big-conteneur{
+    height: auto;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.big-conteneur > div{
+    display: flex;
+    flex-direction: column;
+    margin: 0px 10px;
+}
+
+.traitement{
+    width : 500px;
+    height: 200px;
+    border: 1px solid white;
+    position: absolute;
+    top: 30%;
+    left: 20%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: display 2s;
+}
+.progress-barre{
+    height: 30px;
+    width: 0px;
+    background-color: white;
+    transition: width 2s;
+}
+.pourcentage{
+    color: white;
+}
